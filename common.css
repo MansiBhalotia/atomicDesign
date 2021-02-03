@@ -1,0 +1,48 @@
+body{
+	margin:0;
+}
+.background{
+	width:100%;
+	height:100px;
+	margin-bottom:10px;
+	background-color: red;
+	display: flex;
+	align-items: center;
+}
+.navigation{
+	display:flex;
+	margin:0;
+	align-items: center;
+	height: 100%;
+
+}
+.nav-links{
+	list-style:none;
+	color:white;
+	font-size: 20px;
+	margin:10px;
+}
+.hover:hover{
+	color: black;
+	cursor: pointer;
+}
+.icons{
+	background-color: #ac9b96;
+	border-radius: 50%;
+	padding: 10px;
+	color:white;
+
+}
+.form{
+	padding:10px;
+	border-radius: 20px;
+	border:none;
+}
+button{
+	background-color: #ac9b96;
+	color:white;
+	width:100px;
+}
+input{
+	width:250px;
+}
