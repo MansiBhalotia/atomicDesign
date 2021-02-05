@@ -1,22 +1,27 @@
 body{
 	margin:0;
 }
+h4,p{
+	margin:0;
+}
 .background{
-	width:100%;
+	
 	height:100px;
-	margin-bottom:10px;
+	
 	background-color: red;
 	display: flex;
 	align-items: center;
+	padding: 0 20px;
 }
 .navigation{
 	display:flex;
 	margin:0;
 	align-items: center;
 	height: 100%;
+	padding:0;
 
 }
-.nav-links{
+.nav-link{
 	list-style:none;
 	color:white;
 	font-size: 20px;
@@ -31,6 +36,7 @@ body{
 	border-radius: 50%;
 	padding: 10px;
 	color:white;
+	margin: 10px;
 
 }
 .form{
@@ -45,4 +51,52 @@ button{
 }
 input{
 	width:250px;
+}
+.grid-container{
+
+	display:grid;
+	grid-template-columns: auto auto auto;
+	background-color: red;
+	
+	height:800px;
+	grid-gap:60px 40px;
+	padding: 20px;
+	margin: 0;
+}
+.grid-item-wrapper{
+	//display:flex;
+	//flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	opacity: 0.6;
+	padding: 30px;
+}
+
+.image-wrapper{
+	width:400px;
+	height:240px;
+	margin-bottom:10px;
+
+
+}
+.image{
+	width:100%;
+	height: 100%;
+}
+.image-title{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.icon{
+	display: flex;
+	flex:1;
+	justify-content: flex-end;
+}
+.button{
+	//background-color: grey;
+	color:grey;
+	margin-left:10px;
+	cursor:pointer;
 }
